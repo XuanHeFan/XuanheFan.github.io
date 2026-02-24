@@ -6,7 +6,7 @@ He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS)
 
 #### Contact
 
-Email: user[at]fas.harvard.edu
+Email: xuanhefan.edu.cn
 
 #### Education
 M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
