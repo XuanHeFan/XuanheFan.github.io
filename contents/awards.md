@@ -1,12 +1,14 @@
 
-- Outstanding Graduate Award (CUMT), 2025.
+- First Prize, National Graduate Student Electronic Design Competition, August 2025
 
-- National Scholarship for Graduate Students (Ministry of Education, China), 2024.
+- First Prize (National Third Place), National Postgraduate AI Innovation Competition, October 2024
 
-- First-Prize Graduate Academic Scholarship (CUMT), 2023 & 2024.
+- National Scholarship for Graduate Students, December 2023
 
-- Outstanding Undergraduate Thesis Award (Jiangsu, China), 2022.
+- Second Prize, National Graduate Mathematical Modeling Competition, October 2021
 
-- First-Prize Corporate Scholarship (CUMT), 2020.
+- Second Prize, National Intelligent Vehicle Competition for College Students, August 2020
 
-- First-Prize Undergraduate Academic Scholarship (CUMT), 2019.
+
+
+
