@@ -4,5 +4,4 @@
 
 <img src="static/assets/img/ChinaDaily.jpg" width="300">
 
-
 </div>
