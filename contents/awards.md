@@ -1,4 +1,4 @@
-####Competition
+#### Competition
 
 - First Prize, National Graduate Student Electronic Design Competition, August 2025
 
@@ -10,7 +10,7 @@
 
 - First Prize (Province), National University Electronic Design Contest, August 2019 
 
-####Other
+#### Other
 
 - National Scholarship for Graduate Students, December 2023
 
