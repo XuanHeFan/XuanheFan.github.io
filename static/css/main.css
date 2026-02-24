@@ -109,4 +109,39 @@ section .main-body{
     }
 }
 
+.media-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
 
+.media-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 25s linear infinite;
+}
+
+.media-track:hover {
+  animation-play-state: paused;
+}
+
+.media-track img {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.media-track img:hover {
+  transform: scale(1.05);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
