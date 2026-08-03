@@ -5,7 +5,7 @@ He is currently a Ph.D. student at the School of Electronic Information and Comm
 
 #### Contact
 
-Email: xuanhefan.edu.cn
+Email: [xuanhefan@hust.edu.cn](mailto:xuanhefan@hust.edu.cn)
 
 #### Education
 M.E., Control Science and Engineering, China University of Geosciences (Wuhan), 2021—2024.\
