@@ -62,4 +62,28 @@ window.addEventListener('DOMContentLoaded', event => {
             .catch(error => console.log(error));
     })
 
+    // Videos autoplay silently. A deliberate click enables sound for one video
+    // while muting the others, so multiple previews never play audio together.
+    document.addEventListener('click', event => {
+        const videoCard = event.target.closest('.media-video-card');
+        if (!videoCard) return;
+
+        const selectedVideo = videoCard.querySelector('.media-video');
+        if (!selectedVideo) return;
+        if (videoCard.classList.contains('is-audible')) return;
+
+        document.querySelectorAll('.media-video').forEach(video => {
+            if (video !== selectedVideo) {
+                video.muted = true;
+                video.controls = false;
+                video.closest('.media-video-card')?.classList.remove('is-audible');
+            }
+        });
+
+        selectedVideo.muted = false;
+        selectedVideo.controls = true;
+        selectedVideo.play().catch(error => console.log(error));
+        videoCard.classList.add('is-audible');
+    });
+
 }); 
