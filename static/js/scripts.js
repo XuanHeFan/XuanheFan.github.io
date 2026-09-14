@@ -1,5 +1,5 @@
 const contentDir = 'contents/';
-const contentVersion = '20260914-bilingual';
+const contentVersion = '20260914-layout2';
 const sectionNames = ['home', 'news', 'publications', 'awards', 'media'];
 
 const interfaceText = {

@@ -85,7 +85,21 @@ section .main-body{
 }
 
 .news-list p {
-    margin-bottom: 0.75rem;
+    display: grid;
+    grid-template-columns: 5.75rem minmax(0, 1fr);
+    column-gap: 1rem;
+    align-items: start;
+    margin-bottom: 0.85rem;
+}
+
+.news-list time {
+    color: #343a40;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.news-list p > span {
+    min-width: 0;
 }
 
 .news-placeholder {
@@ -126,6 +140,13 @@ section .main-body{
 @media screen and (max-width: 991px) {
     .language-switcher {
         padding: 0.5rem 0 0.8rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .news-list p {
+        grid-template-columns: 4.9rem minmax(0, 1fr);
+        column-gap: 0.65rem;
     }
 }
 
