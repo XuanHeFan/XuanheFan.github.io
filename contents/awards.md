@@ -2,9 +2,9 @@
 
 - First Prize, National Graduate Student Electronic Design Competition, August 2025
 
-- First Prize (National Third Place), National Postgraduate AI Innovation Competition, October 2024
+- Grand Prize, National Postgraduate AI Innovation Competition, October 2024
 
-- Second Prize, National Graduate Mathematical Modeling Competition, October 2021
+- National Second Prize, National Mathematical Modeling Competition, October 2022
 
 - Second Prize, National Intelligent Vehicle Competition for College Students, August 2020
 

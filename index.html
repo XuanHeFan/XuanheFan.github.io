@@ -82,22 +82,32 @@
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
+                <span id="nav-menu-label">MENU</span>
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                        <a id="nav-home" class="nav-link me-lg-3" href="#page-top">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a id="nav-news" class="nav-link me-lg-3" href="#news">NEWS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a id="nav-publications" class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#media">MEDIA</a>
+                        <a id="nav-awards" class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-media" class="nav-link me-lg-3" href="#media">MEDIA</a>
+                    </li>
+                    <li class="nav-item language-switcher">
+                        <label class="visually-hidden" for="language-select">Language</label>
+                        <select id="language-select" class="language-select" aria-label="Select language" title="Select language">
+                            <option value="en" selected>English</option>
+                            <option value="zh">中文</option>
+                        </select>
                     </li>
 
                 </ul>
@@ -135,8 +145,19 @@
     </section>
     <!-- Home -->
 
+    <!-- News -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="news">
+        <div class="container px-5">
+            <header>
+                <h2 id="news-subtitle"><i class="bi bi-megaphone-fill"></i>&nbsp;NEWS</h2>
+            </header>
+            <div class="main-body" id="news-md"></div>
+        </div>
+    </section>
+    <!-- News -->
+
     <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
         <div class="container px-5">
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
@@ -177,9 +198,9 @@
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
+                <a id="github-link" href="https://github.com/XuanHeFan">GitHub</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/XuanHeFan/XuanHeFan.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>
